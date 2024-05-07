@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 
-import Style from "../Card/card.module.css";
+import Style from "../Card/Card.module.css";
 import images from "../../assets";
 
-const Card = ({ candidateArray, giveVote }) => {
+const card = ({ candidateArray, giveVote }) => {
   return (
     <div className={Style.card}>
       {candidateArray.map((el, i) => (
@@ -25,7 +25,7 @@ const Card = ({ candidateArray, giveVote }) => {
           </div>
           <div className={Style.card_button}>
             <button
-              onClick={() => giveVote({ id: el[3].toNumber(), address: el[6] })}
+              onClick={() => giveVote({ id: el[2].toNumber(), address: el[6] })}
             >
               Give Vote
             </button>
@@ -36,4 +36,4 @@ const Card = ({ candidateArray, giveVote }) => {
   );
 };
 
-export default Card;
+export default card;

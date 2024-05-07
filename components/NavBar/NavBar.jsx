@@ -10,7 +10,7 @@ import Style from "./NavBar.module.css";
 const NavBar = () => {
   const { connectWallet, error, currentAccount } = useContext(VotingContext);
 
-  const [openNav, setOpenNav] = useState(true);
+  const [openNav, setOpenNav] = useState(false);
 
   const openNavigation = () => {
     if (openNav) {
