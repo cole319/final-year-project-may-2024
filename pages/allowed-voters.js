@@ -79,7 +79,7 @@ const allowedVoters = () => {
           <div className={Style.voter_container_box}>
             <div className={Style.voter_container_box_div}>
               <div {...getRootProps()}>
-                <input {...getInputProps} />
+                <input {...getInputProps()} />
                 <div className={Style.voter_container_box_div_info}>
                   <p>Upload FIle: JPG, PNG, Max 10MB</p>
                   <div className={Style.voter_container_box_div_image}>
