@@ -60,7 +60,6 @@ const allowedVoters = () => {
             <div className={Style.sideInfo_box}>
               <h4>Create Candidate for Voting</h4>
               <p>Gymkhana Voting</p>
-              <p className={Style.sideInfo_para}>Contract Candidate</p>
             </div>
             <div className={Style.card}>
               {voterArray.map((el, i) => (

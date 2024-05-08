@@ -15,7 +15,7 @@
   width: 15rem;
   height: 15rem;
   padding: 1rem;
-  background-color: #231e39;
+  background-color: #cfdce7;
   border-radius: 25px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
   color: #b3b8cd;
@@ -29,9 +29,9 @@
 }
 
 .voterInfo_paragraph {
-  background-color: #231e39;
+  background-color: #cfdce7;
   border-radius: 25px;
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
   color: #b3b8cd;
   height: 9rem;
   padding: 1rem;
@@ -46,20 +46,21 @@
 }
 
 .sideInfo {
-  background-color: #231e39;
+  background-color: #cfdce7;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
-  color: #b3b8cd;
+  color: #181b28;
 }
 
 .sideInfo_box h4 {
-  background-color: #9a02ac;
+  background-color: #2575ba;
   padding: 0.5rem;
   border-radius: 0.2rem;
+  color: #fff;
 }
 
 .sideInfo_para {
-  background-color: #9a02ac;
+  background-color: #2575ba;
   padding: 0.5rem;
   border-radius: 0.2rem;
 }
@@ -72,9 +73,9 @@
 
 .card_box {
   line-height: 1rem;
-  border: 1px solid #9a02ac;
+  border: 1px solid #2575ba;
   padding: 0.2rem;
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
   border-radius: 0.3rem;
 }
 
@@ -83,24 +84,24 @@
 }
 
 .createdVoter_info {
-  background-color: #231e39;
+  background-color: #cfdce7;
   border-radius: 25px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
-  color: #b3b8cd;
+  color: #252731;
   padding: 2rem;
 }
 
 .voter {
-  background-color: #231e39;
+  background-color: #cfdce7;
   border-radius: 25px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
-  color: #b3b8cd;
+  color: #252731;
   padding: 2rem;
 }
 
 .voter_container_box {
   text-align: center;
-  border: 1px dotted #9a02ac;
+  border: 1px dotted #2575ba;
   border-radius: 5px;
 }
 

@@ -1,15 +1,17 @@
 .input_box {
   width: 100%;
-  background-color: #730283;
+  background-color: #f8f8f8;
   padding: 0.5rem;
   border-radius: 0.2rem;
+  border-width: 0.2rem;
+  border-color: black;
 }
 
 .input_box input {
   background-color: transparent;
   border: 0;
   width: 100%;
-  outline: none;
+  /* border-color: black; */
   padding-inline: 0.5rem;
   color: #fff;
 }

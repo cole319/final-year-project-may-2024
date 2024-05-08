@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import Style from "../Card/Card.module.css";
+import Style from "./card.module.css";
 import images from "../../assets";
 
 const card = ({ candidateArray, giveVote }) => {
@@ -18,7 +18,7 @@ const card = ({ candidateArray, giveVote }) => {
             </h2>
             <p>{el[0]}</p>
             <p>Address: {el[6].slice(0, 10)}...</p>
-            <p className={Style.total}>Total Vote</p>
+            <p className={Style.total}>Total Votes</p>
           </div>
           <div className={Style.card_vote}>
             <p>{el[4].toNumber()}</p>

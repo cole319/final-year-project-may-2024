@@ -6,9 +6,9 @@
 }
 
 .card_box {
-  background-color: #231e39;
+  background-color: rgb(207, 216, 222);
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
-  color: #b3b8cd;
+  color: #565b61;
   text-align: center;
   overflow: hidden;
   border-radius: 0.5rem;
@@ -24,11 +24,11 @@
 }
 
 .card_vote {
-  color: #9a02ac;
+  color: #2575ba;
 }
 
 .total {
-  background-color: #9a02ac;
+  background-color: #2575ba;
   padding: 0.5rem;
   border-radius: 0.2rem;
   font-weight: 900;
@@ -47,7 +47,7 @@
 }
 
 .card_button button {
-  background-color: #9a02ac;
+  background-color: #2575ba;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
   border: none;
   padding: 0.5rem 1rem;

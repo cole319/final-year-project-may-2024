@@ -41,11 +41,11 @@ const index = () => {
               </p>
             </div>
           </div>
-          <div className={Style.winner_message}>
+          {/* <div className={Style.winner_message}>
             <small>
               <Countdown date={Date.now() + 10000} />
             </small>
-          </div>
+          </div> */}
         </div>
       )}
       <Card candidateArray={candidateArray} giveVote={giveVote} />

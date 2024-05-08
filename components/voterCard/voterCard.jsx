@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
-import Style from "../Card/Card.module.css";
+import Style from "../card/card.module.css";
 import images from "../../assets";
-import voterCardStyle from "./VoterCard.module.css";
+import voterCardStyle from "./voterCard.module.css";
 
 const VoterCard = ({ voterArray }) => {
   return (
