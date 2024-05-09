@@ -4,6 +4,7 @@
 
 ## Set up Node.js
 Node version required LTS 20.12.2
+
 NPM version 8.19.2
 
 ## Clone the Git repository
@@ -21,6 +22,7 @@ npm run dev (to run the project in local server)
 ## Create an .env file in the root directory. Copy and paste the Pinata API KEY and Secret key
 	
 -> PINATA_API_KEY = 
+
 -> PINATA_SECRET_KEY = 
 
 ## Install Metamask and import Hardhat localhost network
