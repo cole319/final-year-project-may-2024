@@ -78,8 +78,8 @@ export const VotingProvider = ({ children }) => {
           url: "https://api.pinata.cloud/pinning/pinFileToIPFS",
           data: formData,
           headers: {
-            pinata_api_key: `b5d8aa2249495f43a32f`,
-            pinata_secret_api_key: `a5e6c3427ec657ffa1e4ad506048e45e22bbebfb8afd526ed161fdd112256d7a`,
+            pinata_api_key: process.env.PINATA_API_KEY,
+            pinata_secret_api_key: process.env.PINATA_SECRET_KEY,
             "Content-Type": "multipart/form-data",
           },
         });
@@ -102,8 +102,8 @@ export const VotingProvider = ({ children }) => {
           url: "https://api.pinata.cloud/pinning/pinFileToIPFS",
           data: formData,
           headers: {
-            pinata_api_key: `b5d8aa2249495f43a32f`,
-            pinata_secret_api_key: `a5e6c3427ec657ffa1e4ad506048e45e22bbebfb8afd526ed161fdd112256d7a`,
+            pinata_api_key: process.env.PINATA_API_KEY,
+            pinata_secret_api_key: process.env.PINATA_SECRET_KEY,
             "Content-Type": "multipart/form-data",
           },
         });
@@ -146,8 +146,8 @@ export const VotingProvider = ({ children }) => {
         data: data,
         headers: {
           // Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiI5OWVlN2IxZS0yOTE2LTRhZWEtYTAxZS02YmZjOTY4ODNjYjEiLCJlbWFpbCI6IjIwamUwOTk4QGNzZS5paXRpc20uYWMuaW4iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGluX3BvbGljeSI6eyJyZWdpb25zIjpbeyJpZCI6IkZSQTEiLCJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MX0seyJpZCI6Ik5ZQzEiLCJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MX1dLCJ2ZXJzaW9uIjoxfSwibWZhX2VuYWJsZWQiOmZhbHNlLCJzdGF0dXMiOiJBQ1RJVkUifSwiYXV0aGVudGljYXRpb25UeXBlIjoic2NvcGVkS2V5Iiwic2NvcGVkS2V5S2V5IjoiYzdkYmFjZDljYTZjZDBhYjk2MjMiLCJzY29wZWRLZXlTZWNyZXQiOiI0MTA1MmNiN2M5Y2VjOTY5ZWI3OWU2M2RmZGVhNzBjZmExYmNiYWQ5MmFjZDlkMzNkMWUwODAwNTUyNzk2YzQwIiwiaWF0IjoxNzE1MDY3OTk0fQ.uOfRrUnaQ6pnAHr6w46Cn7l5Jb6PyEwG71kpmNyUZe0`,
-          pinata_api_key: `b5d8aa2249495f43a32f`,
-          pinata_secret_api_key: `a5e6c3427ec657ffa1e4ad506048e45e22bbebfb8afd526ed161fdd112256d7a`,
+          pinata_api_key: process.env.PINATA_API_KEY,
+          pinata_secret_api_key: process.env.PINATA_SECRET_KEY,
           "Content-Type": "application/json",
         },
       });
@@ -231,8 +231,8 @@ export const VotingProvider = ({ children }) => {
         data: data,
         headers: {
           // Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiI5OWVlN2IxZS0yOTE2LTRhZWEtYTAxZS02YmZjOTY4ODNjYjEiLCJlbWFpbCI6IjIwamUwOTk4QGNzZS5paXRpc20uYWMuaW4iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGluX3BvbGljeSI6eyJyZWdpb25zIjpbeyJpZCI6IkZSQTEiLCJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MX0seyJpZCI6Ik5ZQzEiLCJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MX1dLCJ2ZXJzaW9uIjoxfSwibWZhX2VuYWJsZWQiOmZhbHNlLCJzdGF0dXMiOiJBQ1RJVkUifSwiYXV0aGVudGljYXRpb25UeXBlIjoic2NvcGVkS2V5Iiwic2NvcGVkS2V5S2V5IjoiYzdkYmFjZDljYTZjZDBhYjk2MjMiLCJzY29wZWRLZXlTZWNyZXQiOiI0MTA1MmNiN2M5Y2VjOTY5ZWI3OWU2M2RmZGVhNzBjZmExYmNiYWQ5MmFjZDlkMzNkMWUwODAwNTUyNzk2YzQwIiwiaWF0IjoxNzE1MDY3OTk0fQ.uOfRrUnaQ6pnAHr6w46Cn7l5Jb6PyEwG71kpmNyUZe0`,
-          pinata_api_key: `b5d8aa2249495f43a32f`,
-          pinata_secret_api_key: `a5e6c3427ec657ffa1e4ad506048e45e22bbebfb8afd526ed161fdd112256d7a`,
+          pinata_api_key: process.env.PINATA_API_KEY,
+          pinata_secret_api_key: process.env.PINATA_SECRET_KEY,
           "Content-Type": "application/json",
         },
       });
