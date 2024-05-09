@@ -1,3 +1,5 @@
+# Instructions for Installation
+
 ## Install VS Code editor 
 
 ## Set up Node.js
