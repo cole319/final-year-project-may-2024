@@ -35,6 +35,7 @@ Go to Settings -> Networks -> Add Network -> Add Network Manually ->
 And fill the following details: 
 
 RPC URL: https://localhost:8545/
+
 Chain ID: 31337
 
 Go to Settings -> Advanced -> Enable “Show Test Networks”
