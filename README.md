@@ -15,8 +15,11 @@ NPM version 8.19.2
 ## Go to the terminal, navigate to the project folder, and run the following commands:
 
 npm i
+
 npx hardhat  node
+
 npx hardhat run --network localhost scripts/deploy.js (to run a hardhat test instance)
+
 npm run dev (to run the project in local server)
 
 ## Create an .env file in the root directory. Copy and paste the Pinata API KEY and Secret key
