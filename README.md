@@ -13,20 +13,21 @@ NPM version 8.19.2
 (Please Take a screenshot of the details of the keys once shown as it will be shown only once)
 
 ## Go to the terminal, navigate to the project folder, and run the following commands:
-
+```bash
 npm i
 
 npx hardhat  node
 
-npx hardhat run --network localhost scripts/deploy.js (to run a hardhat test instance)
+npx hardhat run --network localhost scripts/deploy.js
 
-npm run dev (to run the project in local server)
-
+npm run dev 
+```
 ## Create an .env file in the root directory. Copy and paste the Pinata API KEY and Secret key
-	
--> PINATA_API_KEY = 
 
--> PINATA_SECRET_KEY = 
+```.env	
+PINATA_API_KEY =
+PINATA_SECRET_KEY = 
+```
 
 ## Install Metamask and import Hardhat localhost network
 
