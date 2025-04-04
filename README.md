@@ -8,6 +8,9 @@ Node version required LTS 20.12.2
 NPM version 8.19.2
 
 ## Clone the Git repository
+```zsh
+git clone git@github.com:cole319/final-year-project-may-2024.git
+```
 
 ## Collect API key, Secret Key and JWT from Pinata IPFS Cloud
 (Please Take a screenshot of the details of the keys once shown as it will be shown only once)
